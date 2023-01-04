@@ -18,7 +18,8 @@ export class Book {
   providedIn: 'root',
 })
 export class CrudService {
-  REST_API: string = 'http://localhost:8000/api';
+  // REST_API: string = 'http://localhost:8000/api';
+  REST_API: string = 'https://crdu.onrender.com/api';
 
   httpHeaders = new HttpHeaders().set('Content-Type', 'application/json');
 
